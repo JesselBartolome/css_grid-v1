@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Practice</title>
+</head>
+<style type="text/css">
+	*{
+		text-align: center;
+	}
+	}
+	.container{
+		background: #fff;
+		display: inline;
+	}
+	header{
+		text-align: center;
+		background: peachpuff;
+		border-radius: 10px;
+		height: 40px;
+		font-size: 30px;
+	}
+	.Left{
+		background: palegreen;
+		text-align:center;
+		width: 200px;
+	}
+	.Main{
+		background: plum;
+		text-align: center;
+		flex-grow: 4;
+		flex-flow: column wrap;
+	}
+	.Right{
+		background:lightseagreen;
+		text-align:center;
+		width: 200px ;
+	}
+	.Parent{
+		height: 80vh;
+		display: flex;
+		flex-direction: row;
+	}
+	.footer{
+		background:skyblue;
+		text-align: center;
+		border-radius: 10px;
+		height: 20vh;
+	}
+
+
+</style>
+<body>
+	<header>Header</header>
+<div class="Parent">
+<div class="Left"> Left sidebar</div>
+<div class="Main"> Main content</div>
+<div class="Right">Right sidebar</div>			
+
+</div>
+<div class="footer">
+	 Footer
+</div>
+</body>
+</html>
